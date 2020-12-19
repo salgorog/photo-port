@@ -4,11 +4,11 @@ import About from './components/About';
 function App() {
 
   return (
-    
-      <section className="my-5">
-        <h1 id="about">Who am I?</h1>
-      </section>
-      
+    <div>
+      <main>
+        <About></About>
+      </main>
+    </div>
   );
 }
 
