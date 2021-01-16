@@ -3,6 +3,7 @@ import Modal from '../Modal';
 
 
 function PhotoList({ category }) {
+
     const [photos] = useState([
         {
             name: 'Grocery aisle',
